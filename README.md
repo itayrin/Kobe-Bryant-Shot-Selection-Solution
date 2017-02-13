@@ -5,18 +5,18 @@ Rank 150/1170
 
 
 In order to run without the hyper parameter optimization module:
-First Tab:
 ```sh
 $ python prediction.py
 ```
 
 In order to run with the hyper parameter optimization module(longer simulation time):
-First Tab:
 ```sh
 $ python main.py
 ```
 
 Report.pdf contains the design steps and inferences during the process of solving the problem.
+
+
 Note: A detailed simulation is not explored for heavy hyper parameter optimal search.The rank
 can be firther improved. In addition the number of cores is left floating, so upon running 
 the XgBoost library, all the cores will be engaged. In order to limit the number of cores 
