@@ -18,7 +18,7 @@ Report.pdf contains the design steps and inferences during the process of solvin
 
 
 **Note**: A detailed simulation is not explored for heavy hyper parameter optimal search.The rank
-can be firther improved. In addition the number of cores is left floating, so upon running 
+can be further improved. The number of cores is left floating. Therefore upon running 
 the XgBoost library, all the cores will be engaged. In order to limit the number of cores 
 running, modify **nthread** in self.space = {} for hyper parameter optimization. Further details 
 to configuration of XgBoost can be found [Xgboost Knobs](http://xgboost.readthedocs.io/en/latest//parameter.html)
