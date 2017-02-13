@@ -17,7 +17,7 @@ $ python main.py
 Report.pdf contains the design steps and inferences during the process of solving the problem.
 
 
-Note: A detailed simulation is not explored for heavy hyper parameter optimal search.The rank
+**Note**: A detailed simulation is not explored for heavy hyper parameter optimal search.The rank
 can be firther improved. In addition the number of cores is left floating, so upon running 
 the XgBoost library, all the cores will be engaged. In order to limit the number of cores 
 running, modify **nthread** in self.space = {} for hyper parameter optimization. Further details 
